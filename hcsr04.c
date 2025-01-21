@@ -4,8 +4,6 @@
 #include <util/delay.h>
 #include <avr/interrupt.h>
 
-#include "main_defines.h"
-#include "main_func.h"
 
 uint16_t get_hcsr04_distance(volatile uint8_t* port, volatile uint8_t* pin, uint8_t pin_trig, uint8_t pin_echo)
 {

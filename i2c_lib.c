@@ -1,12 +1,4 @@
-/*
- * i2c_lib.c
- *
- * Created: 12/7/2024 3:57:15 PM
- *  Author: Marmelada
- */ 
-
 #include <avr/io.h>
-//#include <util/twi.h>
 #include "main_config.h"
 
 void i2c_init() {

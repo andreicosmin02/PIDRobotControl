@@ -5,7 +5,6 @@
 #include <avr/interrupt.h>
 
 #include "main_config.h"
-#include "main_defines.h"
 
 void port_init(void);
 void timer1_init(void);
