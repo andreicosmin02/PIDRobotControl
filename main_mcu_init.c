@@ -1,7 +1,11 @@
 #include "main_mcu_init.h"
+#include "main_defines.h"
 
 void port_init(void)
-{
+{	
+	DDRD |= (1 << PIN_HCSR04_TRIG);	// Pinul TRIG ca output
+	DDRD &= ~(1 << PIN_HCSR04_ECHO); // Pinul ECHO ca input
+
 	PORTD = 0x00;
 	PORTB = 0x00;
 }

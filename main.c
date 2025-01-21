@@ -3,7 +3,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include <stdio.h>
-#include "main_func.h"
 #include "main_mcu_init.h"
 #include "nokia5110.h"
 #include "hcsr04.h"
